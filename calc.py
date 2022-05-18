@@ -42,6 +42,7 @@ def clear():
 window= Tk()
 window.title("NumSurge")
 window.geometry("500x500")
+window.resizable(False, False)
 
 equation_text = ""
 
